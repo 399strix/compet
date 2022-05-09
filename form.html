@@ -85,7 +85,7 @@
             <ul>
               <li><a href="../hacktudei/indexhack.html">Hack Today</a></li>
               <li><a href="../ux/indexux.html">UX Today</a></li>
-              <li><a href="../poster/indexposter.html">Poster Competition</a></li>
+              <li><a href="indexposter.html">Poster Competition</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#mainspo">Sponsor</a></li>
@@ -109,7 +109,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Hack Today</h2>
+          <h2>Poster Competition</h2>
           <p>Register Your Team</p>
         </header>
 
@@ -120,16 +120,16 @@
                 <div class="col-6 menengah turun">
                   <div class="row gy-4 data">
                     <div class="col-md-6 form-group">
-                    <label for="nama_team" class="form-label">Team Name</label>
-                    <input type="text" name="tim" class="form-control" placeholder="Nama Tim" required>
+                    <label for="nama_team" class="form-label">Nama Team</label>
+                    <input type="text" name="tim" class="form-control" placeholder="Team Name" required>
                   </div>
       
                   <div class="col-md-6 form-group">
-                    <label for="level_team" class="form-label">Team Level</label>
+                    <label for="level_team" class="form-label">level Team</label>
                     <select class="form-select col-md-6 form-control control" aria-label="Default select example" required>
                       <option value="{{ null }}" selected>Select level your team</option>
-                      <option value="sma">Senior High School</option>
-                      <option value="kuliah">Bachelor</option>
+                      <option value="sma">Sekolah Menengah Atas</option>
+                      <option value="kuliah">Kuliah</option>
                     </select>
                   </div>
 
@@ -139,24 +139,24 @@
                   </div>
     
                   <div class="col-md-6 form-group">
-                    <label for="email_team" class="form-label">Team Email</label>
-                    <input type="email" class="form-control" name="email" placeholder="Email Tim" required>
+                    <label for="email_team" class="form-label">Email Team</label>
+                    <input type="email" class="form-control" name="email" placeholder="Email" required>
                   </div>
 
                   <div class="col-md-6 form-group">
-                    <label for="username_telegram_team" class="form-label">Team Username Telegram</label>
+                    <label for="username_telegram_team" class="form-label">Username Telegram Team</label>
                     <input type="text" name="tele" class="form-control" placeholder="Username Telegram" required>
                   </div>
     
                   <div class="col-md-6 form-group">
-                    <label for="no_handphone_team" class="form-label">Team Phone Number</label>
-                    <input type="number" class="form-control" name="nomerhp" placeholder="Nomor Telepon Tim" required>
+                    <label for="no_handphone_team" class="form-label">No Handphone Team</label>
+                    <input type="number" class="form-control" name="nomerhp" placeholder="Nomor Hp" required>
                   </div>
 
                   <div class="col-md-12 form-group">
                     <label for="level_team" class="form-label">Number of Team</label>
                     <select id="reason-list" class="col-md-6 form-control control" required>
-                      <option value="">Jumlah Tim</option>
+                      <option value="">Choose number of teams</option>
                       <option value="1">1</option>
                       <option value="2">2</option>
                       <option value="3">3</option>
@@ -184,11 +184,11 @@
           
                         <div class="col-md-6 form-group">
                           <label for="username_telegram_team" class="form-label">Team Member Name</label>
-                          <input type="text" name="nama" class="form-control" placeholder="Nama Lengkap" >
+                          <input type="text" name="nama" class="form-control" placeholder="Full Name" >
                         </div>
           
                         <div class="col-md-6 form-group">
-                          <label for="username_telegram_team" class="form-label">Team Member Province</label>
+                          <label for="username_telegram_team" class="form-label">Provinsi Member Team</label>
                           <input type="text" class="form-control" name="Provinsi" placeholder="Provinsi" >
                         </div>
           
@@ -201,7 +201,7 @@
                         </div>
           
                         <div class="col-md-6 form-group ">
-                          <label for="username_telegram_team" class="form-label">Member Team Certificate of Enrolment</label>
+                          <label for="username_telegram_team" class="form-label">Surat Aktif Member Team</label>
                           <div class="col-md-6 form-group col-kiri col-bawah form-control file-upload-wrapper" data-text="SKMA">
                             <input name="file-upload-field" type="file" class="form-control" value="" >
                             <span class="btn-primary col-atas_bawah btn-sm" role="button" aria-pressed="true" >Browse</span>
@@ -233,17 +233,17 @@
           
                         <div class="col-md-6 form-group">
                           <label for="username_telegram_team" class="form-label">Team's Account Name </label>
-                          <input type="text" name="nama" class="form-control" placeholder="Nama Tim" >
+                          <input type="text" name="nama" class="form-control" placeholder="Full Name" >
                         </div>
           
                         <div class="col-md-6 form-group">
                           <label for="username_telegram_team" class="form-label">Account Number</label>
-                          <input type="text" class="form-control" name="Provinsi" placeholder="Rekening" >
+                          <input type="text" class="form-control" name="Provinsi" placeholder="Provinsi" >
                         </div>
           
                         <div class="col-md-12 form-group">
-                          <label for="username_telegram_team" class="form-label">Payment Receipt</label>
-                          <div class="col form-group col-kiri form-control file-upload-wrapper" data-text="Bukti Transfer">
+                          <label for="username_telegram_team" class="form-label">Bukti Transfer Member Team</label>
+                          <div class="col form-group col-kiri form-control file-upload-wrapper" data-text="KTM / Kartu Pelajar">
                             <input name="file-upload-field" type="file" class="form-control padding" value="" >
                             <span class="btn-primary col-atas_bawah btn-sm" role="button" aria-pressed="true" >Browse</span>
                           </div>
@@ -271,8 +271,8 @@
                         <h2>Result Competition Team</h2>
           
                         <div class="col-md-12 form-group">
-                          <label for="username_telegram_team" class="form-label">Team Username Telegram </label>
-                          <input type="link" name="nama" class="form-control" placeholder="Telegram Tim" >
+                          <label for="username_telegram_team" class="form-label">Username Telegram Team</label>
+                          <input type="link" name="nama" class="form-control" placeholder="Full Name" >
                         </div>
                         
                         <div class="col-md-12 gy-4 text-center marginturun">
